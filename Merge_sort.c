@@ -12,14 +12,14 @@ int main() {
 	
 	int i;
 	
-	printf("합병정렬 전\n");
+	// printf("합병정렬 전\n");
 	for (i = 0; i < MAX_SIZE; i++) {
 		printf("%d ", ary[i]);
 	}
 
 	merge_sort(ary, 0, MAX_SIZE - 1);
 
-	printf("\n합병정렬 후\n");
+	// printf("\n합병정렬 후\n");
 
 	for (i = 0; i < MAX_SIZE; i++) {
 		printf("%d ", ary[i]);

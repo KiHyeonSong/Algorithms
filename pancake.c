@@ -16,12 +16,8 @@ int main()
 	int idx =0;
 	
 	int len = sizeof(ary) / sizeof(ary[0]) ;
-	//printf("%d\n", len); 
 	
-	
-
-	// printf("%d\n", idx);
-	printf("정렬전\n");
+	// printf("정렬전\n");
 	for (i = 0; i < len; i++)
 		printf("%d, ", ary[i]);
 	printf("\n");
@@ -33,7 +29,7 @@ int main()
 		up(idx, ary);
 		down(idx, ary, i);
 		
-		printf("%d 번 정렬\n", k);
+		// printf("%d 번 정렬\n", k);
 		k++;
 		for (j = 0; j < len; j++)
 		{

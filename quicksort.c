@@ -8,7 +8,7 @@ void main() {
 	int i;
 	int ary[MAX_SIZE] = { 2,1,4,7,3,5,9,8,6,10};
 
-	printf("정렬 전\n");
+	// printf("정렬 전\n");
 	for (i = 0; i < MAX_SIZE; i++) {
 		printf("%d  ", ary[i]);
 	}
@@ -16,7 +16,7 @@ void main() {
 
 	quick_sort(ary, 0, MAX_SIZE - 1);
 	
-	printf("정렬 후\n");
+	// printf("정렬 후\n");
 	for (i = 0; i < MAX_SIZE; i++) {
 		printf("%d  ", ary[i]);
 	}

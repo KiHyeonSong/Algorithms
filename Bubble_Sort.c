@@ -6,7 +6,7 @@ int main(void) {
 	int ary[10] = { 1,10,5,8,7,6,4,3,2,9 };
 	int i, j, temp, index;
 
-	printf("버블 정렬 전\n");
+	// printf("버블 정렬 전\n");
 	for (i = 0; i < 10; i++)
 	{
 		printf("%d ", ary[i]);
@@ -23,7 +23,7 @@ int main(void) {
 		}
 
 	}
-	printf("버블 정렬 후\n");
+	// printf("버블 정렬 후\n");
 	for (i = 0; i < 10; i++)
 	{
 		printf("%d ", ary[i]);
