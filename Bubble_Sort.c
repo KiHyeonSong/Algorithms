@@ -6,7 +6,7 @@ int main(void) {
 	int ary[10] = { 1,10,5,8,7,6,4,3,2,9 };
 	int i, j, temp, index;
 
-	printf("¹öºíÁ¤·Ä Àü\n");
+	printf("ë²„ë¸” ì •ë ¬ ì „\n");
 	for (i = 0; i < 10; i++)
 	{
 		printf("%d ", ary[i]);
@@ -23,7 +23,7 @@ int main(void) {
 		}
 
 	}
-	printf("¹öºíÁ¤·Ä ÈÄ\n");
+	printf("ë²„ë¸” ì •ë ¬ í›„\n");
 	for (i = 0; i < 10; i++)
 	{
 		printf("%d ", ary[i]);
